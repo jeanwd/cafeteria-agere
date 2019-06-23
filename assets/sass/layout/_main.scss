@@ -1,0 +1,161 @@
+
+.maint{
+  width: 30%;
+  padding:0 7%;
+  padding-top: 4%;
+  font-family:$pt-mono;
+
+
+
+
+
+      &__letr{
+        text-align: left;
+        font-size: $xxx-large;
+      }
+
+      &__letrl{
+        font-weight: $light;
+      }
+}
+
+
+
+.maint02 {
+  @extend .maint;
+  float: left;
+  font-size: $medium;
+  width: 50%;
+  padding-right: 9rem;
+
+  &__letrl{
+    font-weight: $light;
+    width: 73%;
+  }
+
+  &--fuente02{
+    font-family: $roboto;
+    font-weight: $light;
+    width: 70%;
+  }
+
+}
+
+.row{
+  flex-wrap:nowrap;
+}
+
+.main_img{
+  width: 68%;
+    background-image: url('../images/img-1.png');
+
+}
+
+.main_img2{
+  width: 57%;
+  height: 120%;
+  float: right;
+  padding: 0;
+}
+
+
+.dinamarca02{
+  float:right;
+  background-color:$buff;
+  width:120px;
+  height:120px;
+  padding:0;
+  margin-top: 312px;
+  margin-left:61em  ;
+  position: absolute;
+  z-index: 1;
+}
+
+.dinamarca03{
+  float:right;
+  background-color:$flame;
+  width:120px;
+  height:140px;
+  padding:0;
+  margin-top: 280px;
+  margin-left:59em;
+  position: absolute;
+  z-index: 2;
+}
+
+.dinamarca01{
+  float:right;
+  background-color:$blue-de-France;
+  width:500px;
+  height:200px;
+  padding:0;
+  padding-bottom:90px;
+  margin-left:29.0rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.dinamarcaimg1{
+  float:right;
+  width:450px;
+  height:190px;
+  padding:0;
+
+  margin-left:27.0rem;
+  margin-top: 2rem;
+  position: absolute;
+  z-index: 3;
+}
+
+.arrow01{
+  text-align: right;
+  color:$white;
+  margin-left: 61rem;
+  padding:0;
+  margin-top: 320px;
+  position: absolute;
+  z-index: 3;
+  font-size: 50px;
+}
+
+.dinamarcaimg2{
+  float:right;
+  width:170px;
+  height:200px;
+  padding:0;
+  padding-bottom:90px;
+  margin-left:52rem;
+  margin-top: -1rem;
+  position: absolute;
+z-index: 3;
+  transform: rotate(90deg);
+}
+
+.infotext{
+  width: 51.5%;
+  padding: 2%;
+  margin-top: 30%;
+  font-family:$pt-mono;
+  font-size: $medium;
+  float: right;
+
+  background-color: $white;
+  display: inline-block;
+}
+
+.infotext01{
+  padding: 0 1%;
+  margin-top: 1%;
+  width: 30%;
+  display: inline-block;
+
+    &--fuente{
+      font-family: $roboto;
+      font-weight: $light;
+    }
+
+
+
+
+
+}

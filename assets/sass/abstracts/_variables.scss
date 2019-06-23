@@ -1,0 +1,64 @@
+// Esquema de colores
+
+// Primer esquema de color
+$white: #fff;
+$isabeline: #eeeded;
+$spanish-gray: #989797;
+
+// Segundo esquema de color
+$coral: #FA824C;
+$buff: #f1dd7b;
+$vanilla: #f5e7a1;
+
+// Tercer esquema de color
+$flame: #e4572e;
+$light-red-ochre: #e87554;
+$pastel-pink: #f2b2a0;
+
+// Curato esquema de color
+$shiny-shamrock: #4ca866;
+$turquoise-green: #9dcfab;
+$pastel-gray: #bddfc7;
+
+// Quinto esquema de color
+$blue-de-France: #3c91e6;
+$blue-jeans: #5fa5ea;
+$jordy-blue: #82b9ef;
+
+// Sexto esquema de color
+$black: #000000;
+$outer-space: #454545;
+$quick-silver: #a0a0a0;
+
+
+// Tipografia
+$roboto:'Roboto', sans-serif;
+$pt-mono:'PT Mono', monospace;
+
+//Peso de fuentes
+$light: 300;
+$regular:400;
+
+// tamanos de fuentes
+$xxx-large: 70px;
+$xx-large: 40px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+
+
+
+// Small screen / tablet
+$screen-sm:                  320px !default;
+$screen-sm-min:              $screen-sm !default;
+$screen-tablet:              $screen-sm-min !default;
+
+// Medium screen / desktop
+$screen-md:                  768px !default;
+$screen-md-min:              $screen-md !default;
+$screen-desktop:             $screen-md-min !default;
+
+// Large screen / wide desktop
+$screen-lg:                  1200px !default;
+$screen-lg-min:              $screen-lg !default;
+$screen-lg-desktop:          $screen-lg-min !default;

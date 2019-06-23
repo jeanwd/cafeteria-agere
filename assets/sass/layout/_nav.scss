@@ -1,0 +1,47 @@
+.navbar {
+  padding: 1rem 0;
+  width: 100%;
+
+
+  &__lognav{
+    width:30%;
+    padding: 0;
+
+
+  }
+}
+
+.esp{
+  margin: 0 4px;
+
+}
+
+.botn {
+float: right;
+width: 80%;
+padding: 5px;
+margin: 0;
+
+
+      &__sep{
+        margin: 0 10px;
+        float: right;
+
+      }
+
+}
+
+
+
+
+
+.nav-link{
+  color: $outer-space;
+  padding: 0 ;
+  display: inline;
+  font-weight: $regular;
+
+  &__color {
+    color:$quick-silver;
+  }
+}
